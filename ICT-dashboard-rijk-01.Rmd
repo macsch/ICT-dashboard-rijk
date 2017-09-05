@@ -20,7 +20,7 @@ library(ggrepel)
 library(shiny)
 
 # load data in 'global' chunk so it can be shared by all users of the dashboard
-ict.das <- read.csv2("O:/Open_data/ICT_Dashboard/data/2017-08-30_ICT_dashboard.csv")
+ict.das <- read.csv2("~/ICT_Dashboard/data/2017-08-30_ICT_dashboard.csv")
 
 # Colours Netherlands Court of Audit
 myColours = data.frame(hex=c("#25257A","#00BCDF","#A2A419","#BE5900","#5C332A","#741672","#BE0034","grey","white"),
